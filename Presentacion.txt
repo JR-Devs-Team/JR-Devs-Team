@@ -4,3 +4,6 @@ Correo: edwinfmontiel@gmail.com
 Name: Carlos Berrocal Mestra
 Email: carlosbmestra@gmail.com
 (primerCommit)
+
+Nombre: Yesid David Martinez Sarmiento
+Correo: yesid.david7@gmail.com - yesid_david@hotmail.com
