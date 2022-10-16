@@ -9,3 +9,6 @@ Correo: dilmervelandia@hotmail.com - Commit 1
 
 Nombre: Carlos Berrocal Mestra
 Correo: carlosbmestra@gmail.com [Primer Commit ]
+
+Nombre: William Colmenares
+Correo: williamdcolmenares@gmail.com 
