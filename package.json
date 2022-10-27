@@ -1,0 +1,24 @@
+{
+  "name": "jr-devs-team",
+  "version": "1.0.0",
+  "description": "Tienda de Productos jr-devs-team",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JR-Devs-Team/JR-Devs-Team.git"
+  },
+  "author": "jr-devs-team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JR-Devs-Team/JR-Devs-Team/issues"
+  },
+  "homepage": "https://github.com/JR-Devs-Team/JR-Devs-Team#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  }
+}
