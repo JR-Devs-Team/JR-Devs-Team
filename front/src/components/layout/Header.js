@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import IngresoProductos from '../IngresoProductos'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -13,12 +13,14 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">                        
                         <li class="nav-item">
-                            <a class="nav-link" href={<IngresoProductos/>}>Gestión de Productos</a>
+                            <Link to={`/IngresoProductos`} id="view_btn" className="btn btn-block">
+                                Gestión de Productos
+                            </Link>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">
-                                Dropdown
-                            </a>
+                            <Link to={`/ListarProductos`} id="view_btn" className="btn btn-block">
+                                Lista de Productos
+                            </Link>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Disabled</a>

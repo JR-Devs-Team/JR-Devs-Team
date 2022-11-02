@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-const IngresoProductos = () => {
+export const IngresoProductos = () => {
     return (
         <Fragment>
             <div class="container">
@@ -10,7 +10,7 @@ const IngresoProductos = () => {
                 </ol>
             </div>
             <div class="text-center py-5">
-                <h1 class="h3-responsive font-weight-normal">Gestión Productos</h1>
+                <h1 class="h3-responsive font-weight-normal">Gestión de Productos</h1>
             </div>
 
             <div class="modal-body">

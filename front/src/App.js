@@ -4,6 +4,7 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IngresoProductos from './components/IngresoProductos';
+import ListarProductos from './components/ListarProductos';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
         <Header/>
         <div className='container container-fluid'>
           <Routes>
-            <Route path="/" element={<IngresoProductos/>}/>
-            {/*<Route path="/Home" element={<Home/>}/>
-  <Route path="/producto/:id" element={<ProductDetails/>}/>*/}
+            {/*<Route path="/" element={<Home/>}/>
+            <Route path="/Home" element={<Home/>}/>*/}
+            <Route path="/IngresoProductos" element={<IngresoProductos/>}/>            
+            <Route path="/ListarProductos" element={<ListarProductos/>}/>
           </Routes>
         </div>
         <Footer/>
