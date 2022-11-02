@@ -52,7 +52,7 @@ export const ListarProductos = () => {
             },
             {
                 "_id": "4",
-                "nombre": "Pistolas de aire",
+                "nombre": "Pistolas de aire serie 200",
                 "precio": 29800,
                 "descripcion": "Cuerpo y vaso de aluminio pulido de 1 L",
                 "imagen": [
