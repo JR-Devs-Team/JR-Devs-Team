@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <Fragment>
+            
             <nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#D1C9FF'}} >
                 <a href="/">
-                    <img className='image-logo' src="./Logo.png" alt="YeJen Logo" />
+                    <img className='image-logo' src="./Logo.png" alt="Logo" />
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     </button>
                 </a>

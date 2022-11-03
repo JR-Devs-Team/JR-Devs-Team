@@ -7,7 +7,7 @@ export const ListarProductos = () => {
                 "_id": "1",
                 "nombre": "Caja de Herramienta",
                 "precio": "38400",
-                "descripcion": "",
+                "descripcion": "Caja plástica 22 '' con compartimentos",
                 "calificacion": 3.9,
                 "imagen": [{
                     "public_id": "productos/dsvbpny402gelwugv2le",
@@ -24,7 +24,7 @@ export const ListarProductos = () => {
                 "_id": "2",
                 "nombre": "Guías de acero para cable",
                 "precio": 93000,
-                "descripcion": "Guía de acero al alto carbono de fácil arrastre",
+                "descripcion": "Guía de acero al alto carbono",
                 "imagen": [
                     {
                         "public_id": "productos/dsvbpny402gelwugv22e",
@@ -117,7 +117,7 @@ export const ListarProductos = () => {
                                 <h5 id="titulo_producto">
                                     <p>{lista[1].nombre}</p>
                                 </h5>
-                                <p className="card-text">{lista[1].descripcion}</p>
+                                <p className="card-text"><strong>{lista[1].descripcion}</strong></p>
                                 <p className="card-text">${lista[1].precio}</p>
                                 <div className="rating mt-auto">
                                     <span id="No_opiniones"> Stock: {lista[1].inventario}</span>
@@ -141,7 +141,7 @@ export const ListarProductos = () => {
                                 <h5 id="titulo_producto">
                                     <p>{lista[2].nombre}</p>
                                 </h5>
-                                <p className="card-text">{lista[2].descripcion}</p>
+                                <p className="card-text"><strong>{lista[2].descripcion}</strong></p>
                                 <p className="card-text">${lista[2].precio}</p>
                                 <div className="rating mt-auto">
                                     <span id="No_opiniones"> Stock: {lista[2].inventario}</span>
@@ -165,7 +165,7 @@ export const ListarProductos = () => {
                                 <h5 id="titulo_producto">
                                     <p>{lista[3].nombre}</p>
                                 </h5>
-                                <p className="card-text">{lista[3].descripcion}</p>
+                                <p className="card-text"><strong>{lista[3].descripcion}</strong></p>
                                 <p className="card-text">${lista[3].precio}</p>
                                 <div className="rating mt-auto">
                                     <span id="No_opiniones"> Stock: {lista[3].inventario}</span>
