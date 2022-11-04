@@ -5,6 +5,7 @@ import Footer from './components/layout/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IngresoProductos from './components/IngresoProductos';
 import ListarProductos from './components/ListarProductos';
+import Carrito from './components/carrito/Carrito';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
             <Route path="/Home" element={<Home/>}/>*/}
             <Route path="/IngresoProductos" element={<IngresoProductos/>}/>            
             <Route path="/ListarProductos" element={<ListarProductos/>}/>
+            <Route path="/carrito" element={<Carrito />}/>
+
           </Routes>
         </div>
         <Footer/>

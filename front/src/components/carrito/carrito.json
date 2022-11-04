@@ -1,0 +1,39 @@
+{
+    "item": [
+        {
+            "_id":"6320",
+            "nombre":"Caja de Herramientas",
+            "precio":52000,
+            "imagen":"./images/productos/Caja.png",
+            "inventario":50,
+            "__v": 0
+        },       
+        {
+        
+            "_id":"6321",
+            "nombre":"Pistola",
+            "precio":15000,
+            "imagen":"./images/productos/Pistola.png",
+            "inventario":40,
+            "__v": 0
+        },       
+        {
+        
+            "_id":"6322",
+            "nombre":"revolvedor",
+            "precio":25000,
+            "imagen":"./images/productos/Mezclador.png",
+            "inventario":20,
+            "__v": 0
+        },       
+        {
+            "_id":"6323",
+            "nombre":"sonda",
+            "precio":19000,
+            "imagen":"./images/productos/Guia.png",
+            "inventario":20,
+            "__v": 0
+        
+        }
+   ]
+}   

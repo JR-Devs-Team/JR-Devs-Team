@@ -27,7 +27,14 @@ const Header = () => {
                         <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
                         <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
                     </form>
+                    <Link to="/carrito"><i class="fa fa-shopping-cart fa-2x text-white" aria-hidden="false"></i>
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span className="ml-1" id="cart_count">4</span></Link>
                 </div>
+               
+
+           
+                
             </nav>
         </Fragment>
     )
